@@ -12,6 +12,7 @@
         <module name="springcloud-eureka-7003" />
         <module name="springCloud-Zuul-9527" />
         <module name="springcloudapi" />
+        <module name="springcloudconfigserver3344" />
         <module name="springcloudconsumer-hystric-dashboard" />
         <module name="springcloudconsumerdept80" />
         <module name="springcloudconsumerdept80feign" />
@@ -28,6 +29,7 @@
       <module name="springCloud-Zuul-9527" target="1.8" />
       <module name="springcloud2" target="1.8" />
       <module name="springcloudapi" target="1.8" />
+      <module name="springcloudconfigserver3344" target="1.8" />
       <module name="springcloudconsumer-hystric-dashboard" target="1.8" />
       <module name="springcloudconsumerdept80" target="1.8" />
       <module name="springcloudconsumerdept80feign" target="1.8" />

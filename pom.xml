@@ -20,6 +20,7 @@
         <module>springcloudproviderdept8001-Hystric</module>
         <module>springcloudconsumer-hystric-dashboard</module>
         <module>springCloud-Zuul-9527</module>
+        <module>springcloudconfigserver3344</module>
     </modules>
     <!--打包方式-->
     <packaging>pom</packaging>

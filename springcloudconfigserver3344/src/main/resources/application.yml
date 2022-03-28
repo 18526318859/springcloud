@@ -1,0 +1,10 @@
+server:
+  port: 3344
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/18526318859/git01.git
+  application:
+    name: configserver
