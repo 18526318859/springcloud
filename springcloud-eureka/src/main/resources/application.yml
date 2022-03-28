@@ -1,0 +1,18 @@
+server:
+  port: 7001
+  #配置eureka的服务端实例名称，eureka7003.com，修改的文件地址"C:\Windows\System32\drivers\etc\hosts"
+eureka:
+  instance:
+    hostname: eureka7001.com
+  client:
+    register-with-eureka: false  #是否向注册中心进行注册
+    fetch-registry: false  #false表示这是一个注册中心
+    service-url: #监控页面
+    #单机：http://${eureka.instance.hostname}:${server.port}/eureka/
+    #集群：关联
+      defaultZone: http://eureka7003.com:7003/eureka/,http://eureka7002.com:7002/eureka/
+
+
+
+
+
